@@ -86,10 +86,11 @@
         var color = `rgba(${imgData[0]},${imgData[1]},${imgData[2]},${imgData[3]})`
         // console.log(color);
         colorpicker(color)
+        chosen.style.backgroundColor = color
       }
 
       //点击的是颜色大方块的时候
-      if(x>=50 && x<=50+width && y>=0 && y<=width) {
+      if(x>=30 && x<=30+width && y>=0 && y<=width) {
         var imgData = ctx.getImageData(x,y,1,1);
         // console.log(imgData);
         imgData = imgData.data;
