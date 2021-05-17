@@ -1,0 +1,49 @@
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>匹诺曹管理系统</title>
+        <style>
+            * {
+                padding: 0;
+                margin: 0;
+              }
+        </style>
+        <link rel="stylesheet" href="../public/style/list.css">
+        <!-- <script src="../../node_modules/art/template/lib/template-web.js"></script> -->
+    </head>
+    <body>
+
+        <div class="header">
+            <h2>匹诺曹管理系统</h2>
+        </div>
+        <div class="content">
+            <div class="left">
+                <div class="add">
+                    <a href="/">添加学生</a>
+                </div>
+            </div>
+            <div class="list">
+                <div class="item-ml">
+                    <div class="ml">ID</div>
+                    <div class="ml">姓名</div>
+                    <div class="ml">学号</div>
+                    <div class="ml">操作</div>
+                </div>
+                {{ each students }}
+                    <div class="item">
+                        <div class="id">{{$value.id}}</div>
+                        <div class="name">{{$value.name}}</div>
+                        <div class="num">{{$value.num}}</div>
+                        <div class="cz">
+                            <a href="/a/delete?id={{$value.id}}">删除</a>
+                            &nbsp; 
+                            <a href="/a/edit?id={{$value.id}}">编辑</a>
+                        </div>
+                    </div>
+                {{ /each}}
+            </div>
+            <div class="right"></div>
+        </div>
+        <div class="footer">Made by Pinocchio</div>
+    </body>
+</html>

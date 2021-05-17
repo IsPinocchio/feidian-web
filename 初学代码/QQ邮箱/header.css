@@ -1,0 +1,22 @@
+.header{
+    height: 60;
+    background-color:#EFF4FA;
+    border-bottom: 1px solid #d6dfea;
+
+}
+.logo{
+    padding-left: 30px;
+}
+.ban{
+    margin-top: -42px;
+    margin-right: 30px;
+    text-align: right;
+}
+.banben{
+    font-size: 12px;
+    color: #1D5494;
+    text-decoration: none;
+}
+.banben:hover{
+    text-decoration: underline;
+}

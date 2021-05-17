@@ -1,0 +1,137 @@
+.header{
+    width: 100%;
+    height: 141.99px;
+    /* background: rgb(168, 201, 70); */
+}
+.section_nav{
+    margin: auto;
+    width: 1200px;
+    height: 90px;
+    display: flex;
+    margin-left: 10%;
+    
+}
+div.logo{
+    height: 90px;
+    width: 200px;
+}
+.logo a{
+    display: block;
+    margin-top: 20px;
+}
+div.topnav{
+    height: 90px;
+    width: 500px;
+}
+div.topnav p{
+    display: inline-block;
+    text-align: center;
+    line-height: 4.7;
+    font-size: 18px;
+}
+div.topnav p a{
+    display: block;
+    width: 94px;
+    height: 90px;
+    color: #000000;
+}
+.topnav p img{
+    height: 14px;
+    position: absolute;
+    top: 18px;
+}
+div.topnav p a:hover{
+    color: #31C27C;
+}
+div.topnav p:first-child a{
+    color: #ffffff;
+}
+.topnav p:first-child{
+    background-color: #31C27C;
+}
+.search input{
+    margin-left: 5px;
+    width: 174px;
+    height: 36px;
+    border: 0 none;
+    outline: none;
+}
+.search{
+    margin-top: 25px;
+    height: 36px;
+    width: 220px;
+    border-radius: 3px;
+    border:1px solid #c9c9c9;
+    background-color: #ffffff;
+    line-height: 2px;
+}
+.search_button{
+    position: absolute;
+    width: 35px;
+    height: 35px;
+    overflow: visible;
+    /* border: 0 none; */
+    background: 0 0;
+    cursor: pointer;
+}
+.log{
+    width: 38px;
+    height: 90px;
+    /* background-color: aqua; */
+    margin-left: 20px;
+    line-height: 5.2;
+}
+.lvzuan{
+    width: 110px;
+    border-radius: 2px;
+    overflow: hidden;
+    margin-top: 25px;
+    margin-left: 10px;
+    height: 36px;
+    background-color: #31C27C;
+    text-align: center;
+    line-height: 2.6;
+}
+.lvzuan a{
+    color: #ffffff;
+    font-size: 13px; 
+}
+.cost{
+    width: 90px;
+    border-radius: 2px;
+    border: 1px solid #c9c9c9;
+    overflow: hidden;
+    margin-top: 25px;
+    margin-left: 10px;
+    height: 36px;
+    text-align: center;
+    line-height: 2.6;
+}
+.cost a{
+    font-size: 13px;
+}
+.section_subnav{
+    width: 1200px;
+    height: 51px;
+    display: flex;
+    margin-left: 10%;
+    border-top: 1px solid #f2f2f2;
+}
+.section_subnav p{
+    display: inline-block;
+    font-size: 15px;
+    margin-left: 50px;
+    margin-top: 16px;
+    color: #000000;
+}
+.section_subnav p:first-child{
+    margin-left: 230px;
+    
+}
+.section_subnav p:first-child a{
+    color: #31C27C;
+}
+.section_subnav p a:hover{
+    color: #31C27C;
+    cursor: pointer;
+}

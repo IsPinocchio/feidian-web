@@ -1,0 +1,41 @@
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>匹诺曹管理系统</title>
+        <style>
+            * {
+                padding: 0;
+                margin: 0;
+              }
+        </style>
+        <link rel="stylesheet" href="../public/style/index.css">
+        <!-- <script src="../../node_modules/art/template/lib/template-web.js"></script> -->
+    </head>
+    <body>
+
+        <div class="header">
+            <h2>匹诺曹管理系统</h2>
+        </div>
+        <div class="content">
+            <div class="signup">
+                <form action="/a" method="POST">
+                <div class="username">
+                    <label for="input_username"></label>
+                    <input type="text" placeholder="  Username" required minlength="2" maxlength="20"
+                     name="name" id="input_username">
+                </div>
+                <div class="password">
+                    <label for="password"></label>
+                    <input type="text" placeholder="  Password" required minlength="5" maxlength="20" 
+                    name="password" id="password">
+                </div>
+                <div class="code">
+                    <input type="text" placeholder="  code">
+                </div>
+                <button type="submit" class="btn">Sign Up</button>
+            </div>
+            </form>
+        </div>
+        <div class="footer">Made by Pinocchio</div>
+    </body>
+</html>

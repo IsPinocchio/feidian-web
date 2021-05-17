@@ -1,0 +1,50 @@
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>匹诺曹管理系统</title>
+        <style>
+            * {
+                padding: 0;
+                margin: 0;
+              }
+        </style>
+        <link rel="stylesheet" href="../public/style/edit.css">
+        <!-- <script src="../../node_modules/art/template/lib/template-web.js"></script> -->
+    </head>
+    <body>
+
+        <div class="header">
+            <h2>匹诺曹管理系统</h2>
+        </div>
+        <div class="content">
+            <div class="left">
+                <div class="add">
+                    <a href="/">添加学生</a>
+                </div>
+            </div>
+            <div class="list">
+               <form action="/a/edit" method="POST">
+                    <div class="item">
+                        <label for="">ID</label>
+                        <input type="text" name="id" value="{{ student.id }}" readonly = 'true'>
+                    </div>
+                    <div class="item">
+                        <label for="">姓名</label>
+                        <input type="text" name="name" value="{{ student.name }}">
+                    </div>
+                    <div class="item">
+                        <label for="">密码</label>
+                        <input type="text" name="password" value="{{ student.password }}">
+                    </div>
+                    <div class="item">
+                        <label for="">学号</label>
+                        <input type="text" name="num" value="{{ student.num }}">
+                    </div>
+                    <button type="submit">提 交</button>
+               </form>
+            </div>
+            <div class="right"></div>
+        </div>
+        <div class="footer">Made by Pinocchio</div>
+    </body>
+</html>

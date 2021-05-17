@@ -1,0 +1,37 @@
+.nav{
+    height: 51px;
+    width: 867px;
+    background-color: seagreen;
+    background: url(../img/linkbg.jpg);
+}
+.nav ul{
+    height: 51px;
+    line-height: 51px;
+}
+ul{
+    list-style-type: none;
+}
+.nav ul li{
+    height: 51px;
+    width: 124px;
+    float: left;
+    text-align: center;
+    background: url(../img/linkr.gif)no-repeat right center;
+}
+.nav ul li:last-child{
+    width: 123px;
+
+}
+.nav ul li a{
+    display: inline-block;
+    width: 124px;
+    height: 51px;
+    color: #fff;
+    text-decoration: none;
+}
+.nav ul li a:hover{
+    font-size: 15px;
+    font-weight: bold;
+    color: yellow;
+    text-decoration: underline;
+}

@@ -1,0 +1,223 @@
+.content{
+    width: 616px;
+    height: 490px;
+    border-top: 20px white solid;
+    /* background-color: slateblue; */
+    float: left;
+}
+.news{
+    width: 313px;
+    height: 300px;
+    background-color: white;
+    float: left;
+}
+.about{
+    width: 303px;
+    height: 300px;
+    background-color: white;
+    float: left;
+}
+.estate{
+    width: 616px;
+    height: 190px;
+    background-color: white;
+    float: left;
+ 
+}
+.news ul li{
+    margin-top: 5px;
+    padding-left: 15px;
+}
+.news ul{
+    margin-left: 15px;
+    background: url(../img/weline.gif) no-repeat right ;
+}
+.news ul li.time{
+    color: orange;
+    font-weight: bold;
+    background: url(../img/ico.gif)no-repeat center left;
+}
+.word{
+    margin-top: 10px;
+    margin-left: 15px;
+}
+.inner{
+    border-top: 1px solid #ccc;
+    width: 550px;
+    height: 16px;
+    margin-left: 30px;
+    display: flex;
+    padding-top: 15px;
+}
+.content2{
+    width: 614px;
+    height: 850px;
+    background-color: white;
+    float: left;
+    overflow: auto;
+
+}
+.content2 p{
+    padding-left: 20px;
+    margin-right: 60px;
+    line-height: 150%;
+    text-indent: 24px;
+}
+.content3{
+    width: 614px;
+    height: 850px;
+    background-color: white;
+    float: left;
+    overflow: auto;
+}
+.content3 ul{
+    margin-left: 20px;
+    margin-top: 15px;
+}
+.content3 ul li{
+    margin-bottom: 5px;
+    background: url(../img/ico.gif) no-repeat left;
+    padding-left: 15px;
+}
+.content3 ul li a{
+    text-decoration: none;
+    font-size: 11px;
+    color: rgb(55, 67, 198);
+}
+.content3 .page{
+    margin-top: 30px;
+    text-align: center;
+    font-size: 10px;
+}
+.content3 .page a{
+    text-decoration: none;
+    color: rgb(110, 103, 103);
+}
+.content4{
+    width: 614px;
+    height: 850px;
+    background-color: white;
+    float: left;
+    overflow: auto;
+}
+.content4 dl{
+    display: grid;
+    grid-template-columns: 250px 250px;
+    margin-left: 20px;
+}
+.content4 .page{
+    text-align: center;
+}
+.content4 .page a{
+    text-decoration: none;
+    color: rgb(110, 103, 103);
+}
+.content4 dl p{
+    margin-left: 8px;
+    margin-bottom: 10px;
+    width: 234px;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    background: rgba(233, 230, 230, 0.911);
+    color: rgb(103, 101, 101);
+}
+.content5{
+    width: 614px;
+    height: 850px;
+    background-color: white;
+    float: left;
+    overflow: auto;
+}
+.content5 table{
+    width:90%;
+    margin: auto;
+    margin-top: 15px;
+    border-collapse: collapse;
+    font-size: 12px;
+    margin-bottom: 30px;
+}
+.content5 th,.content5 td{
+    height: 25px;
+    line-height: 25px;
+    text-align: center;
+    border: 1px solid #ccc;
+}
+.content5 th{
+    background: #eee;
+    font-weight: normal;
+}
+.content5 tr:hover{
+    background: #cc0;
+}
+.content5 tr a{
+    text-decoration: none;
+}
+.content5 .page{
+   text-align: center;
+}
+.content5 .page a{
+    text-decoration: none;
+    color: rgb(110, 103, 103);
+}
+.content6{
+    width: 614px;
+    height: 850px;
+    background-color: white;
+    float: left;
+    overflow: auto;
+}
+.content6 ul{
+    margin-left: 20px;
+}
+.content6 ul li{
+    margin-top: 5px;
+}
+.content6 .page{
+    text-align: center;
+    margin-top: 20px;
+ }
+ .content6 .page a{
+     text-decoration: none;
+     color: rgb(110, 103, 103);
+ }
+ .content7{
+    width: 614px;
+    height: 850px;
+    background-color: white;
+    float: left;
+    overflow: auto;
+}
+.content7 p{
+    margin-left: 20;
+}
+.content7 p input.text{
+    width: 150px;
+    height: 20px;
+    border: 1px solid #ccc;
+    margin-top: 5px;
+}
+.content7 p textarea.area{
+    margin-top:10px;
+    border: 1px solid #ccc;
+}
+.content7 p input.submit{
+    width: 70px;
+    height: 25px;
+    background: #fff;
+    border: 1px solid #ccc;
+    color: #666;
+    cursor: pointer;
+    margin-top: 5px;
+}
+.content7 p input.submit:hover{
+    background-color: #eee;
+}
+.content7 .page{
+    text-align: center;
+    margin-top: 20px;
+ }
+ .content7 .page a{
+     text-decoration: none;
+     color: rgb(110, 103, 103);
+ }

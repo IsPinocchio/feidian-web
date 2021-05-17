@@ -1,0 +1,42 @@
+.sidebar{
+    width: 251px;
+    height: 490px;
+    float: left;
+    border-top: 20px white solid;
+    background:white url(../img/weline.gif)no-repeat right;
+}
+.sidebar img{
+    display: block;
+    margin-left: 16px;
+}
+.sidebar a{
+    display: block;
+    margin-left: -1px;
+    margin-top: 5px;
+}
+.sidebar .line{
+    border-bottom:1px solid #999;
+    margin-top: 10px;
+    height: 10px;
+    margin-right: 50px;
+    margin-bottom: 8px;
+    margin-left: 15px;
+}
+.sidebar ul li{
+    margin-top: 5px;
+    margin-left: 15px;
+}
+.sidebar2{
+    width: 251px;
+    height: 850px;
+    float: left;
+    background: white;
+    border-right: 1px solid #ccc;
+}
+.sidebar2 embed{
+    display: block;
+    width: 220px;
+    height: 250px;
+    margin: 0 auto;
+
+}

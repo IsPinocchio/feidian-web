@@ -1,0 +1,20 @@
+.footer{
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 40px;
+    background-color:#EFF4FA;
+}
+.more{
+    font-size: 12px;
+    color: #1D5494;
+    text-decoration: none;
+}
+.help{
+    text-align: center;
+    margin-top: 8px;
+}
+.more:hover{
+    text-decoration: underline;
+}

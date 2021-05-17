@@ -1,0 +1,165 @@
+.newsong{
+    height: 532px;
+    background-color: #d8d7d74c;
+    /* overflow: hidden; */
+    position: relative;
+}
+a:hover{
+    color: #31C27C;
+}
+.newsong .content{
+    min-width: 900px;
+    /* background-color: blueviolet; */
+    max-width: 1200px;
+    position: relative;
+    margin: auto;
+    z-index: 2;
+    overflow: hidden;
+}
+.newsong-name{
+
+    position: relative;
+    text-align: center;
+    /* background-color: burlywood; */
+    padding-top: 3%;
+    padding-bottom: 2%;
+}
+.newsong-name h2{
+    display: block;
+    width: 196px;
+    height: 40px;
+    /* background-color: brown; */
+    margin: 0 auto;
+    font-size: 32;
+    letter-spacing: 10px;
+ 
+}
+.newsong-classify{
+    height: 50px;
+    text-align: center;
+}
+.newsong-classify a{
+    display: inline-block;
+    font-size: 15px;
+    margin: 0 24px;
+    margin-top: 5px;
+}
+.newsong-classify a:first-child{
+    color: #31C27C;
+}
+.newsong-content-pic{
+    margin-right: -20px;
+    font-size: 0px;
+    margin-bottom: 20px;
+    /* background-color: rosybrown; */
+    overflow: hidden;
+}
+.newsong-list{
+    display: inline-block;
+    width: 100%;
+    /* background-color: rosybrown; */
+    font-size: 0px;
+
+}
+.newsong-item{
+    display: inline-block;
+    width: 33.3%;
+}
+
+.newsong-item-box{
+    position: relative;
+    height: 86px;
+    overflow: hidden;
+    border-top: 1px solid #a2a3a41c;
+    margin: -1px 30px 13px 0;
+    padding-top: 12px;
+    font-size: 14px;
+
+}
+.newsong-item-box .newsong-pic{
+    display: inline-block;
+    width: 86px;
+    height: 86px;
+    margin-right: 20px;
+    background-color: #31C27C;   
+}
+.newsong-item-box .newsong-pic img{
+    width: 100%;
+}
+.newsong-pic img{
+    transform: scale(1) translateZ(0);
+    transition: transform .75s cubic-bezier(0,1,.75,1);
+}
+.newsong-pic:hover img{
+    transform: scale(1.07) translateZ(0);
+    transition: transform .75s cubic-bezier(0,1,.75,1);
+}
+.newsong-item-box .jieshao{
+    display: inline-block;
+    width: 150px;
+    height: 25px;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    position: absolute;
+    top: 20px;
+}
+.newsong-item-box .zuozhe{
+    display: inline-block;
+    width: 150px;
+    height: 25px;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    position: absolute;
+    top: 45px;
+}
+.newsong-item-box .zuozhe a{
+    color: #999999;
+}
+.newsong-item-box .zuozhe a:hover{
+    color: #31C27C;
+}
+.newsong-item-box .time{
+    position: absolute;
+    width: 40px;
+    height: 30px;
+    /* background-color: #31C27C; */
+    top: 35px;
+    right: 30px;
+    font-size: 15px;
+    color: #999999;
+}
+.pic-item-cover:hover img{
+    transform: scale(1.07) translateZ(0);
+    transition: transform .75s cubic-bezier(0,1,.75,1);
+}
+.newsong:hover .slide-button{
+    opacity: 1;
+    transform: translateX(0);
+    transition-property: all;
+    transition-duration: .5s;
+
+}
+.newsong-item-box .newsong-pic .bf-button{
+    width: 70px;
+    height: 70px;
+    background-color: rosybrown;
+    position: absolute;
+    left: 12%;
+    top:60%;
+    margin: -39px;
+    border-radius: 35px;
+    opacity: 0;
+    background-image: url(../img/bf.jpg);
+    background-size: cover;
+    transform:  scale(.5) translateZ(0);
+    transition-property: all;
+    transition-duration: .5s;
+    /* zoom: 1; */
+
+}
+.newsong-item-box:hover .bf-button{
+    opacity: 1;
+    transform: scale(.6);
+}

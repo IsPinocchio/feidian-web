@@ -1,0 +1,13 @@
+.footer{
+    height: 110px;
+    width: 867px;
+    background: url(../img/footer1.gif);
+    clear: both;
+}
+.footer p{
+    margin-right: 10px;
+    margin-top: 10px;
+    text-align: right;
+    color: rgba(255, 255, 255, 0.592);
+    font-size: 5px;
+}

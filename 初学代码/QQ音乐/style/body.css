@@ -1,0 +1,80 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+a{
+    text-decoration: none;
+    color: #000000;
+    cursor: pointer;
+}
+@media(max-width:1240px) {
+body{
+    min-width: 1000px;
+}
+}
+body{
+    min-width: 1240px;
+    overflow-y: scroll;
+    font-size: 14px;
+    line-height: 1.5;
+}
+.float{
+    position: fixed;
+    width: 180px;
+    height: 132px;
+    background-color: #ffffff;
+    top: 164px;
+    right: 40px;
+    box-shadow: 0 1px 3px rgba(0,0,0, 0.7);
+    border-radius: 4px;
+    z-index: 2;
+}
+.float .flag{
+    width: 120px;
+    height: 35px;
+    /* background-color: rosybrown; */
+    margin: auto;
+    margin-top: 20px;
+}
+.float .flag img{
+    width: 100%;
+}
+.float .txt{
+    width: 140px;
+    height: 20px;
+    text-align: center;
+    margin: auto;
+    color: #999999;
+    font-size: 15px;
+    margin-top: 6px;
+}
+.download{
+    display: block;
+    width: 120px;
+    height: 30px;
+    background-color: #31C27C;
+    margin: auto;
+    text-align: center;
+    line-height: 2.1em;
+    margin-top: 8px;
+    border-radius: 15px;
+    color: #ffffff;
+}
+.download:hover{
+    color: #ffffff;
+    background-color: #12a75f;
+}
+div{
+    display: block;
+}
+ul {
+    display: block;
+    list-style-type: disc;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;
+    margin: 0;
+    padding:0;
+}

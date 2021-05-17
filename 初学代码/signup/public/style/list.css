@@ -1,0 +1,96 @@
+.header{
+    height: 100px;
+    width: 100%;
+    /* background-color: rosybrown; */
+    text-align: center;
+    color: #459ddd;
+    /* position:absolute; */
+}
+
+.header h2{
+    padding-top: 35px;
+}
+.content{
+    height: 500px;
+    display: flex;
+    width: 100%;
+    /* background-image: linear-gradient(150deg,#1f94e7,#df119a); */
+    position: relative;
+}
+.content .left{
+    flex: 1;
+    margin-right: 10px;
+    position: relative;
+    background-image: linear-gradient(150deg,#1f94e7,#df119a);
+}
+.left .add{
+    width: 100%;
+    height: 40px;
+    /* background-color: cornsilk; */
+    font-size: 20px;
+    letter-spacing: 5px;
+    text-align: center;
+    position: absolute;
+    top: 20px;
+}
+.content .list{
+    flex:4;
+    background-image: linear-gradient(180deg,#1f94e7,#df119a);
+    overflow-y: scroll;
+    overflow-x: hidden;
+
+}
+.content .list .item-ml{
+    height: 10%;
+    width: 100%;
+    display: flex;
+
+}
+.item-ml .ml{
+    flex: 1;
+    text-align: center;
+    /* border-right: 1px solid #df119a; */
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+.content .list .item{
+    display: flex;
+    height: 10%;
+    width: 100%;
+    border: 1px solid #ffffff;
+
+}
+.content .list .item div{
+    flex: 1;
+    text-align: center;
+    /* border-right: 1px solid #df119a; */
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+.content .right{
+    flex: 1;
+    background-image: linear-gradient(240deg,#1f94e7,#d111df);
+    margin-left: 10px;
+}
+.content .list .list-group-item{
+    display: block;
+    height: 30px;
+    width: 100%;
+    margin: auto;
+
+}
+
+
+.footer{
+    text-align: center;
+    
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+a:hover{
+    color: rgb(245, 246, 247);
+}
